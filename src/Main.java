@@ -29,6 +29,6 @@ public class Main {
 
         double end = LocalTime.now().toNanoOfDay();
         double elapsedTime = end-start;
-        System.out.println(elapsedTime);
+        System.out.println(elapsedTime);+
     }
 }
