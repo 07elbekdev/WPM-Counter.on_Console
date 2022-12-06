@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.time.LocalTime;
 import java.util.Random;
 import java.util.Scanner;
