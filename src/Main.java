@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.time.LocalTime;
 import java.util.Random;
 import java.util.Scanner;
@@ -16,8 +17,7 @@ public class Main {
 
         System.err.println("1");
         TimeUnit.SECONDS.sleep(1);
-
-
+        System.out.println(Color.GREEN+"GO");
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             System.out.print(words[rand.nextInt(9)] + " ");
