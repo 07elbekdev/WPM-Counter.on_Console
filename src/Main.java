@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("3");
-        TimeUnit.SECONDS.sleep(1);2
+        TimeUnit.SECONDS.sleep(1);
 
         System.out.println("2");
         TimeUnit.SECONDS.sleep(1);
