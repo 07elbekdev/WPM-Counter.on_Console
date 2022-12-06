@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println(BROWN + "1" + BROWN);
         TimeUnit.SECONDS.sleep(1);
-        System.out.println(CYAN + "---<< GO >>---" + WHITE);
+        System.out.println(CYAN + "---<< GO >>---" + CYAN);
 
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
