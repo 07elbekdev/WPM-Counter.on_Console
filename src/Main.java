@@ -38,7 +38,7 @@ public class Main {
         double end = LocalTime.now().toNanoOfDay();
         double elapsedTime = end - start;
         double seconds = elapsedTime / 1000000000.0;
-        System.out.println(CYAN+seconds);
+        System.out.println(WHITE+seconds+WHITE);
         int numChars = typeWords.length();
         int WPM = (int) (((numChars / 5) / seconds) * 60);
 
