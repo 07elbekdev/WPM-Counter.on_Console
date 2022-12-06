@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println(BROWN+"1"+BROWN);
         TimeUnit.SECONDS.sleep(1);
-        System.out.println(WHITE+"---<< GO >>---");
+        System.out.println(WHITE+"---<< GO >>---"+WHITE);
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             System.out.print(words[rand.nextInt(9)] + " ");
