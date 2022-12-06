@@ -9,15 +9,15 @@ public class Main {
             "creative", "soughts", "all", "that", "one", "Ronlado", "player", ",", "think", "all", "is"};
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("3...");
+        System.out.println("3");
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println("2...");
+        System.out.println("2");
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println("1...");
+        System.out.println("1");
         TimeUnit.SECONDS.sleep(1);
-        System.err.println("--<< Go >>--");
+        System.err.println("---<< GO >>---");
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             System.out.print(words[rand.nextInt(9)] + " ");
