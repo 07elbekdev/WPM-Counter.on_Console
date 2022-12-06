@@ -9,23 +9,24 @@ public class Main {
     static final String BROWN = "\u001B[31m";
     static final String WHITE = "\u001B[37m";
     static final String YELLOW = "\u001B[33m";
+    static final String CYAN = "\u001B[36m";
     static String[] words = {"something", "You're", "the best", "thing", "ever", "So", "what", "I", "you",
             "creative", "sought", "all", "that", "one", "Ronaldo", "player", ",", "think", "all", "is"};
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(GREEN+"3"+GREEN);
+        System.out.println(GREEN + "3" + GREEN);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(BLUE+"2"+BLUE);
+        System.out.println(BLUE + "2" + BLUE);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(BROWN+"1"+BROWN);
+        System.out.println(BROWN + "1" + BROWN);
         TimeUnit.SECONDS.sleep(1);
-        System.out.println(WHITE+"---<< GO >>---"+WHITE);
+        System.out.println(WHITE + "---<< GO >>---" + WHITE);
 
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
-            System.out.print(YELLOW+words[rand.nextInt(9)] + " ");
+            System.out.print(YELLOW + words[rand.nextInt(9)] + " ");
         }
         System.out.println();
 
