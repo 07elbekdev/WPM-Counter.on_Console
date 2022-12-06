@@ -4,11 +4,12 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
+    static final String GREEN = "\u001B[32m";
     static String[] words = {"something", "You're", "the best", "thing", "ever", "So", "what", "I", "you",
-            "creative", "soughts", "all", "that", "one", "Ronlado", "player", ",", "think", "all", "is"};
+            "creative", "sought", "all", "that", "one", "Ronaldo", "player", ",", "think", "all", "is"};
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("3");
+        System.out.println(GREEN+"3"+GREEN);
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println("2");
