@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     static final String GREEN = "\u001B[32m";
-    static final String BLUE = "\\u001B[34m";
+    static final String BLUE = "\u001B[34m";
     static String[] words = {"something", "You're", "the best", "thing", "ever", "So", "what", "I", "you",
             "creative", "sought", "all", "that", "one", "Ronaldo", "player", ",", "think", "all", "is"};
 
@@ -13,7 +13,7 @@ public class Main {
         System.out.println(GREEN+"3"+GREEN);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println("2");
+        System.out.println(BLUE+"2");
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println("1");
