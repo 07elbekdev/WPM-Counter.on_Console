@@ -7,6 +7,7 @@ public class Main {
     static final String GREEN = "\u001B[32m";
     static final String BLUE = "\u001B[34m";
     static final String BROWN = "\u001B[31m";
+    static final String WHITE = "";
     static String[] words = {"something", "You're", "the best", "thing", "ever", "So", "what", "I", "you",
             "creative", "sought", "all", "that", "one", "Ronaldo", "player", ",", "think", "all", "is"};
 
@@ -19,7 +20,7 @@ public class Main {
 
         System.out.println(BROWN+"1"+BROWN);
         TimeUnit.SECONDS.sleep(1);
-        System.err.println("---<< GO >>---");
+        System.out.println("---<< GO >>---");
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             System.out.print(words[rand.nextInt(9)] + " ");
