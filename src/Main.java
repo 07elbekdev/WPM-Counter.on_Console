@@ -37,10 +37,10 @@ public class Main {
         double end = LocalTime.now().toNanoOfDay();
         double elapsedTime = end - start;
         double seconds = elapsedTime / 1000000000.0;
-        System.out.println(seconds);
+        System.out.println(+seconds);
         int numChars = typeWords.length();
         int WPM = (int) (((numChars / 5) / seconds) * 60);
 
-        System.out.println("Your speed is : " + WPM + " WPM");
+        System.err.println("Your speed is : " + WPM + " WPM");
     }
 }
