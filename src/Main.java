@@ -17,7 +17,7 @@ public class Main {
         System.out.println(BLUE+"2"+BLUE);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(BROWN+"1");
+        System.out.println(BROWN+"1"+BROWN);
         TimeUnit.SECONDS.sleep(1);
         System.err.println("---<< GO >>---");
         Random rand = new Random();
