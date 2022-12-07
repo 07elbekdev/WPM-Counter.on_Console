@@ -30,7 +30,7 @@ public class Main {
         System.out.println(GREEN + "3" + GREEN);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(BLUE + "2" + BLUE);
+        System.out.println("2");
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println(BROWN + "1" + BROWN);
