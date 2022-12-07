@@ -24,7 +24,7 @@ public class Main {
         System.out.println(BLUE+"5"+BLUE);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(BROWN+"4");
+        System.out.println(BROWN+"4"+BROWN);
         TimeUnit.SECONDS.sleep(1);
 
         System.err.println("3");
@@ -33,7 +33,7 @@ public class Main {
         System.err.println("2");
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(BROWN + "1" + BROWN);
+        System.out.println("1");
         TimeUnit.SECONDS.sleep(1);
         System.out.println(CYAN + "---<< GO >>---" + CYAN);
 
