@@ -12,8 +12,14 @@ public class Main {
     static final String CYAN = "\u001B[36m";
     static String[] words = {"something", "You're", "the best", "thing", "ever", "So", "what", "I", "you",
             "creative", "sought", "all", "that", "one", "player", "think", "all", "is"};
-
     public static void main(String[] args) throws InterruptedException {
+
+
+        Random rand = new Random();
+        for (int i = 0; i < 10; i++) {
+            System.out.print(YELLOW + words[rand.nextInt(9)] + " ");
+        }
+        System.out.println();
         System.out.println(GREEN + "3" + GREEN);
         TimeUnit.SECONDS.sleep(1);
 
@@ -23,12 +29,6 @@ public class Main {
         System.out.println(BROWN + "1" + BROWN);
         TimeUnit.SECONDS.sleep(1);
         System.out.println(CYAN + "---<< GO >>---" + CYAN);
-
-        Random rand = new Random();
-        for (int i = 0; i < 10; i++) {
-            System.out.print(YELLOW + words[rand.nextInt(9)] + " ");
-        }
-        System.out.println();
 
         double start = LocalTime.now().toNanoOfDay();
 
