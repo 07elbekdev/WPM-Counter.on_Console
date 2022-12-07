@@ -11,7 +11,7 @@ public class Main {
     static final String YELLOW = "\u001B[33m";
     static final String CYAN = "\u001B[36m";
     static String[] words = {"something", "You're", "the best", "thing", "ever", "So", "what", "I", "you",
-            "creative", "sought", "all", "that", "one", "Ronaldo", "player", ",", "think", "all", "is"};
+            "creative", "sought", "all", "that", "one", "player", "think", "all", "is"};
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println(GREEN + "3" + GREEN);
