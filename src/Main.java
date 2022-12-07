@@ -24,7 +24,6 @@ public class Main {
         System.out.println("5");
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println();
         System.out.println("4");
         TimeUnit.SECONDS.sleep(1);
 
