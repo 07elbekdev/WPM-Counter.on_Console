@@ -21,7 +21,7 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("5");
+        System.out.println(BLUE+"5");
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println("4");
