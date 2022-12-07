@@ -21,7 +21,7 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("10" + GREEN);
+        System.out.println("10");
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println();
