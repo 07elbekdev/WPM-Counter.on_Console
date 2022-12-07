@@ -28,7 +28,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.print(YELLOW + words[rand.nextInt(9)] + " ");
         }
-//        System.out.println();
+        System.out.println();
 
         double start = LocalTime.now().toNanoOfDay();
 
