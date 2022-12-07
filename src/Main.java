@@ -25,6 +25,9 @@ public class Main {
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println();
+        System.out.println("9");
+
+        System.out.println();
         System.out.println(GREEN + "3" + GREEN);
         TimeUnit.SECONDS.sleep(1);
 
