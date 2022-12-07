@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    static final String GREEN = "\u001B[32m";
     static final String BLUE = "\u001B[34m";
     static final String BROWN = "\u001B[31m";
     static final String WHITE = "\u001B[37m";
@@ -35,6 +34,7 @@ public class Main {
 
         System.err.println("1");
         TimeUnit.SECONDS.sleep(1);
+
         System.out.println(CYAN + "---<< GO >>---" + CYAN);
 
         double start = LocalTime.now().toNanoOfDay();
