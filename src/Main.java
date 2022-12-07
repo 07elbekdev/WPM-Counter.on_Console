@@ -33,7 +33,7 @@ public class Main {
         System.err.println("2");
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println("1");
+        System.err.println("1");
         TimeUnit.SECONDS.sleep(1);
         System.out.println(CYAN + "---<< GO >>---" + CYAN);
 
