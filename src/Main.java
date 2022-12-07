@@ -19,6 +19,11 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.print(YELLOW + words[rand.nextInt(9)] + " ");
         }
+
+        System.out.println();
+        System.out.println("10" + GREEN);
+        TimeUnit.SECONDS.sleep(1);
+
         System.out.println();
         System.out.println(GREEN + "3" + GREEN);
         TimeUnit.SECONDS.sleep(1);
