@@ -19,19 +19,19 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println(BLUE + "5" + BLUE);
+        System.out.println();
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(GREEN + "4" + GREEN);
+        System.out.println(GREEN + "" + GREEN);
         TimeUnit.SECONDS.sleep(1);
 
-        System.err.println("3");
+        System.err.println("");
         TimeUnit.SECONDS.sleep(1);
 
-        System.err.println("2");
+        System.err.println("");
         TimeUnit.SECONDS.sleep(1);
 
-        System.err.println("1");
+        System.err.println("");
         TimeUnit.SECONDS.sleep(1);
 
         System.out.println(CYAN + "---<< GO >>---" + CYAN);
