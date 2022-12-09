@@ -19,10 +19,10 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println();
+        System.out.println(BLUE + "5" + BLUE);
         TimeUnit.SECONDS.sleep(1);
 
-        System.out.println(GREEN + "" + GREEN);
+        System.out.println(GREEN + "4" + GREEN);
         TimeUnit.SECONDS.sleep(1);
 
         System.err.println("3");
