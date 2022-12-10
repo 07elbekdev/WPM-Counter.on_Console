@@ -51,5 +51,13 @@ public class Main {
         int WPM = (int) (((numChars / 5) / seconds) * 60);
 
         System.err.println("Your speed is : " + WPM + " WPM");
+
+        // TODO:
+        //  .
+        //  . step 1 - git status -> for checking changed files
+        //  . step 2 - git add . -> for prepare to commit
+        //  . step 3 - git status -> for checking changed files
+        //  . step 4 - git commit -m "description" -> to saved local repository
+        //  . step 5 - git push -> pushing all local code to remote repository
     }
 }
