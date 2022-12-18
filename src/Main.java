@@ -9,7 +9,7 @@ public class Main {
     static final String WHITE = "\u001B[37m";
     static final String YELLOW = "\u001B[33m";
     static final String CYAN = "\u001B[36m";
-    static String[] words = {"In", "1920", "people", "12", "something", "You're", "the best", "thing", "ever", "So", "what", "I", "you", "creative", "sought", "all", "that", "one", "player", "think", "all", "is"};
+    static String[] words = {"I don't care what are you doing ..", "ever", "So", "what", "I", "you", "creative", "sought", "all", "that", "one", "player", "think", "all", "is"};
 
     public static void main(String[] args) throws InterruptedException {
 
