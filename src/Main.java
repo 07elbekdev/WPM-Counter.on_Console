@@ -12,7 +12,7 @@ public class Main {
     static String[] words = {"I don't care what are you doing ..", "The world cup 2022 is in Qatar", "So", "what", "do", "you", "think", "about", "all", "that", "one", "player", "think", "all", "is"};
 
     public static void main(String[] args) throws InterruptedException {
-
+        //Why I did it without method is because here the TimeUnit will not found yourself so I didn't use the method.
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             System.out.print(YELLOW + words[rand.nextInt(9)] + " ");
